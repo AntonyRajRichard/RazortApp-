@@ -32,6 +32,7 @@ img {
 
 .navbar {
     padding: 10px;
+    margin-left: 55px;
 }
 
 .items {
@@ -185,7 +186,7 @@ img {
     }
     .nav-show {
         display: block;
-        padding-right: 90px;
+        padding-right: 150px;
     }
     .nav-right {
         float: right;
@@ -197,6 +198,12 @@ img {
     }
     .card {
         margin-bottom: 30px;
+    }
+    #section-1 {
+        width: 100%;
+        height: 160vh;
+        padding: 60px;
+        padding-top: 60px;
     }
 }
 
@@ -211,6 +218,12 @@ img {
     .card {
         margin-bottom: 30px;
         margin-left: 120px;
+    }
+    #section-1 {
+        width: 100%;
+        height: 220vh;
+        padding: 60px;
+        padding-top: 60px;
     }
 }
 
@@ -253,9 +266,17 @@ img {
         padding: 70px 25px;
         line-height: 50px;
     }
+    #hide-card {
+        display: none;
+    }
+    #top {
+        margin-top: 19%;
+    }
 }
 
-#sec2 {}
+#sec2 {
+    margin-bottom: 15%;
+}
 
 .new-product {
     margin-top: -300px;
@@ -268,4 +289,98 @@ img {
 .triangle {
     fill: rgb(10, 17, 87);
     stroke-width: 1
+}
+
+.products {
+    margin-top: -20%;
+    margin-left: 5%;
+}
+
+.white {
+    background-color: #fff;
+    color: rgb(13, 35, 102);
+    border: 2px solid #ccc;
+}
+
+.white:hover {
+    background-color: whitesmoke;
+    box-shadow: 1px 2px 20px 1px rgba(0, 0, 0, 0.267);
+}
+
+.white h1 {
+    margin-top: -70px;
+}
+
+.white p {
+    color: rgb(13, 35, 102);
+}
+
+.white img {
+    margin-bottom: -70px;
+}
+
+.white a {
+    color: rgb(19, 148, 199);
+}
+
+.white i {
+    font-size: 3rem;
+    color: tomato;
+}
+
+.blue {
+    background-color: rgb(2, 4, 43);
+}
+
+.blue p {
+    color: rgb(175, 168, 142);
+}
+
+.blue h1 {
+    color: white;
+}
+
+.blue a {
+    color: white;
+}
+
+.blue:hover {
+    background-color: rgb(13, 35, 102);
+}
+
+#sec3 {
+    margin: 7%;
+    text-align: center;
+}
+
+#sec3 h2 {
+    margin-bottom: 5%;
+    color: rgb(10, 17, 87);
+}
+
+#sec3 p {
+    font-weight: 100;
+    color: rgb(42, 91, 163);
+}
+
+.card-sm {
+    height: 200px;
+    widows: 150px;
+    background-color: #fff;
+}
+
+.card-sm a {
+    color: rgb(42, 91, 163);
+    text-decoration: none;
+    margin-top: 18%;
+    font-weight: bolder;
+}
+
+.card-sm h2 {
+    font-weight: 200;
+}
+
+.card-sm:hover {
+    background-color: white;
+    color: rgb(19, 148, 199);
 }
