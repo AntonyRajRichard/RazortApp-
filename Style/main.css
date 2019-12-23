@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 20px 0px 0px 100px;
+    background-color: rgb(2, 4, 43);
+    width: 98%;
+    height: 100vh;
+    color: #fff;
+    background-image: url(https://razorpay.com/assets/home/illustration-big.png);
+    background-repeat: no-repeat;
+    background-size: 700px auto;
+    background-position-x: 400px;
+    background-position-y: 70px;
+}
+
+.nav-items {
+    float: left;
+}
+
+img {
+    z-index: 19;
+}
+
+.navbar {
+    padding: 10px;
+}
+
+.items {
+    list-style: none;
+    display: inline;
+    text-decoration-style: none;
+    padding: 7px;
+}
+
+.items a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.item-height {
+    line-height: 30px;
+    padding-left: 2.2rem;
+}
+
+.items a:hover {
+    color: rgb(23, 100, 255);
+    text-decoration: wavy;
+}
+
+.nav-right {
+    padding-top: 10px;
+    padding-left: 160px;
+}
+
+#sign-btn {
+    padding: 4px 20px;
+    color: rgb(51, 111, 209);
+}
+
+.height {
+    margin-top: -5px;
+    padding-left: 20px;
+}
+
+.main {
+    padding: 70px 70px;
+    line-height: 50px;
+}
+
+.info {
+    padding-top: 30px;
+    color: rgb(223, 215, 208);
+}
+
+#email {
+    display: inline;
+    /* background-color: rgb(51, 111, 209); */
+}
+
+.email {
+    background-color: rgb(2, 4, 43);
+    border: 2px solid rgb(51, 111, 209);
+    padding: 10px 25px;
+    border-radius: 3px;
+}
+
+.email-btn {
+    margin-top: 20px;
+    color: #fff;
+    background-color: rgb(51, 111, 209);
+    padding-left: -12px;
+}
