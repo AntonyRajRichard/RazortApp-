@@ -76,6 +76,11 @@ img {
 
 .main {
     padding: 70px 70px;
+    line-height: 40px;
+}
+
+.main h1 {
+    font-size: 2.5rem;
     line-height: 50px;
 }
 
@@ -113,9 +118,6 @@ img {
 
 #sec1-title {
     color: rgb(13, 35, 102);
-}
-
-#sec1-title h1 {
     text-align: center;
 }
 
@@ -177,6 +179,14 @@ img {
         text-decoration-style: none;
         padding: 10px;
     }
+    #msg-icon i {
+        position: fixed;
+        padding: 10px;
+        top: 90vh;
+        left: 85%;
+        background-color: rgb(23, 100, 255);
+        border-radius: 20px 2px 20px 20px;
+    }
 }
 
 @media screen and (max-width: 1053px) {
@@ -205,6 +215,14 @@ img {
         padding: 60px;
         padding-top: 60px;
     }
+    #msg-icon i {
+        position: fixed;
+        padding: 10px;
+        top: 90vh;
+        left: 85%;
+        background-color: rgb(23, 100, 255);
+        border-radius: 20px 2px 20px 20px;
+    }
 }
 
 @media screen and (max-width: 884px) {
@@ -222,8 +240,19 @@ img {
     #section-1 {
         width: 100%;
         height: 220vh;
-        padding: 60px;
+        padding: 10px;
         padding-top: 60px;
+    }
+    #expo {
+        margin-left: 24%;
+    }
+    #msg-icon i {
+        position: fixed;
+        padding: 10px;
+        top: 90vh;
+        left: 70%;
+        background-color: rgb(23, 100, 255);
+        border-radius: 20px 2px 20px 20px;
     }
 }
 
@@ -231,6 +260,14 @@ img {
     .card {
         margin-bottom: 30px;
         margin-left: 70px;
+    }
+    #msg-icon i {
+        position: fixed;
+        padding: 10px;
+        top: 90vh;
+        left: 60%;
+        background-color: rgb(23, 100, 255);
+        border-radius: 20px 2px 20px 20px;
     }
 }
 
@@ -354,13 +391,14 @@ img {
 }
 
 #sec3 h2 {
-    margin-bottom: 5%;
+    margin-bottom: 0.2%;
     color: rgb(10, 17, 87);
 }
 
 #sec3 p {
     font-weight: 100;
     color: rgb(42, 91, 163);
+    line-height: 1.9rem;
 }
 
 .card-sm {
@@ -383,4 +421,27 @@ img {
 .card-sm:hover {
     background-color: white;
     color: rgb(19, 148, 199);
+}
+
+#msg-icon i {
+    position: fixed;
+    padding: 10px;
+    top: 90vh;
+    left: 93vw;
+    background-color: rgb(23, 100, 255);
+    border-radius: 20px 2px 20px 20px;
+}
+
+#msg-icon i {
+    font-size: 1.9rem;
+    color: white;
+}
+
+#green-line {
+    margin-top: -50px;
+    height: 5px;
+    width: 7px;
+    color: rgba(46, 139, 86, 0);
+    border-bottom: 4px solid #58C19C;
+    z-index: 111;
 }
